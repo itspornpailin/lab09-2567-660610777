@@ -2,7 +2,7 @@ import React from "react";
 
 // define TaskItem interface to use as props type
 interface TaskItemProps {
-  id: number;
+  id: string;
   title: string;
   completed: boolean;
   deleteTaskFunc: (taskId: number) => void; // callback function

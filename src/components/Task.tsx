@@ -5,8 +5,8 @@ interface TaskItemProps {
   id: string;
   title: string;
   completed: boolean;
-  deleteTaskFunc: (taskId: number) => void; // callback function
-  toggleDoneTaskFunc: (taskId: number) => void; // callback function
+  deleteTaskFunc: (taskId: string) => void; // callback function
+  toggleDoneTaskFunc: (taskId: string) => void; // callback function
 }
 
 export default function Task({
